@@ -21,6 +21,7 @@ Chrome versions tested:
 
 Version | Result 
 ------- | ------
+`Version 94.0.4606.81 (Official Build) (x86_64)` | PASS
 `Version 95.0.4638.54 (Official Build) (x86_64)` | FAIL
 `Version 97.0.4681.0 (Official Build) dev (x86_64)` | FAIL
 `Version 97.0.4683.0 (Official Build) canary (x86_64)` | FAIL
