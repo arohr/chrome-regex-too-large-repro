@@ -9,7 +9,7 @@ Run `make run` to serve the files in the test directory, then visit http://127.0
 This fails for me with the following error:
 
 ```
-Uncaught SyntaxError: Invalid regular expression: /^d+365753\.$/: Regular expression too large
+Uncaught SyntaxError: Invalid regular expression: /^d+735302\.$/: Regular expression too large
 ```
 
 To regenerate the test script and try different regular expressions, run `make`.
@@ -21,9 +21,6 @@ Chrome versions tested:
 
 Version | Result 
 ------- | ------
-`Version 94.0.4606.81 (Official Build) (x86_64)` | PASS
-`Version 95.0.4638.54 (Official Build) (x86_64)` | FAIL
-`Version 97.0.4681.0 (Official Build) dev (x86_64)` | FAIL
-`Version 97.0.4683.0 (Official Build) canary (x86_64)` | FAIL
+`Version 97.0.4692.71 (Official Build) (x86_64)` | FAIL
 
 Firefox and Safari both work.

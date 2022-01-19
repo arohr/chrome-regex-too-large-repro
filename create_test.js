@@ -1,4 +1,4 @@
-for (let idx = 0; idx < 500_000; idx++) {
+for (let idx = 0; idx < 1_000_000; idx++) {
     console.log(`const REGEX_${idx} = /^\d+${idx}\\.$/;`);
 }
 
